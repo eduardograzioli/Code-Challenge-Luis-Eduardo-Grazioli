@@ -1,0 +1,75 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+
+/* Sfondo Nero */
+body > div{
+  background-color: rgba(0,0,0,0.5);
+  margin: 30px auto;
+  border-radius: 10px;
+  width: 1000px;
+  padding: 5%;
+  font-family: sans-serif;
+}
+
+/* HEADER */
+img{
+  max-height: 350px;
+  max-width: 150px;
+}
+
+header{
+  color: #0DF205;
+  text-align: center;
+}
+
+/* NAV */
+nav > div{
+  background-color: #0DF205;
+  text-align: center;
+  line-height: 40px;
+}
+
+/* MAIN */
+main > div{
+  color: white;
+  margin-top: 25px;
+}
+
+.charge{
+  border-radius: 5px;
+}
+
+.charge.mono1{
+  background-color: #F5B453;
+  height: 20px;
+  width: 300px;
+}
+
+.charge.mono2{
+  background-color: #0DF205 ;
+  height: 20px;
+  width: 600px;
+}
+
+.charge.mono3{
+  background-color: #BF4545;
+  height: 20px;
+  width: 200px;
+}
+
+.freccia:before{
+  content: "\21A6";
+}
+
+div > h3{
+  display: inline-block;
+  margin-left: 5px;
+}
